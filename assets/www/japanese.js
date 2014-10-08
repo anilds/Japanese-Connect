@@ -29,7 +29,7 @@ $.ajax({
 						var value = window.localStorage.getItem("selectedID");
 						//alert(value);
 						var selected_index = $(this).parents('li').eq(0).index();
-						alert("selected index : "+selected_index)
+					//	alert("selected index : "+selected_index)
 						
 						if(selected_index==0){
 					

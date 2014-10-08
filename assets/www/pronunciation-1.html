@@ -23,10 +23,11 @@
 </head>
 <body>
  
-    <div id="About" data-role="page" data-theme="b" data-content-theme="b">
-        <div id="AboutHeader" data-role="header">
+  <div id="Home" data-role="header" data-fullscreen="true" data-position="fixed" data-tap-toggle="false" data-theme="b" data-content-theme="b">
+        <div id="HomeHeader" data-role="header">
            <h1> Connect Japanese</h1> 
             <a href="#Home" data-icon="home" class="ui-btn-left">Home</a>
+        </div>
         </div>
         <div id="AboutContent" data-role="ui-content" data-theme="b" data-content-theme="b">
             <br>
@@ -93,7 +94,7 @@
 					  <tr>
 						
 						<td><input id="alphabet-5" type="button"   data-theme="b" data-content-theme="b" value="O" /></td>
-						<td>As in <font color="red"> "hope." </i> </font>   Nerver as in "on"</td>
+						<td>As in <font color="red"><i> "hope." </i> </font>   Nerver as in "on"</td>
 						
 					  </tr>
 					  
@@ -106,12 +107,14 @@
 		</div>	
 	</div>
 					
-        <div id="AboutFooter" data-role="footer" data-position="fixed" class="ui-btn " data-tap-toggle="false" data-theme="b">
+       
+   <div id="AboutFooter" data-role="footer" data-position="fixed" data-theme="b" data-tap-toggle="false"   data-content-theme="b">
+		<div class="center">
 		<input id="prev-1" type="button" value="Previous" data-icon="arrow-l" data-type="horizontal"/>
 		<input id="next-1" type="button"  value="Next" data-icon="arrow-r" data-type="horizontal" /> 
-		<script src="pronunciation-1.js"></script>
+		</div>
 	</div>
-    </div>
+	<script src="pronunciation-1.js"></script>
 	 
 </body>
 </html>

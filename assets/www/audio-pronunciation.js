@@ -72,101 +72,147 @@ $("#alphabet-1").on("click",  function(e) {
 	
 	$("#alphabet-6").on("click",  function(e) {
 
-			 var audioElement = document.createElement('audio');
 			
-				audioElement.setAttribute('src', 'External audio/A.mp3')
+				// window.alert("READY!");
+			    document.addEventListener("deviceready", onDeviceReady, true);
 
-                audioElement.play();
+			    function onDeviceReady(){
+			       // window.alert("OK@!");
+			        var snd = new Media("/android_asset/www/External audio/A.mp3");
+			        snd.play();
+			    }
 	
 	});
 	
 	$("#alphabet-7").on("click",  function(e) {
 
-			 var audioElement = document.createElement('audio');
 			
-				audioElement.setAttribute('src', 'External audio/aa.mp3')
+				
+				// window.alert("READY!");
+			    document.addEventListener("deviceready", onDeviceReady, true);
 
-                audioElement.play();
+			    function onDeviceReady(){
+			       // window.alert("OK@!");
+			        var snd = new Media("/android_asset/www/External audio/aa.mp3");
+			        snd.play();
+			    }
 	
 	});
 	
 	$("#alphabet-8").on("click",  function(e) {
 
-			 var audioElement = document.createElement('audio');
-			
-				audioElement.setAttribute('src', 'External audio/I.mp3')
+				// window.alert("READY!");
+			    document.addEventListener("deviceready", onDeviceReady, true);
 
-                audioElement.play();
+			    function onDeviceReady(){
+			       // window.alert("OK@!");
+			        var snd = new Media("/android_asset/www/External audio/I.mp3");
+			        snd.play();
+			    }
 	
 	});
 	
 	$("#alphabet-9").on("click",  function(e) {
 
-			 var audioElement = document.createElement('audio');
 			
-				audioElement.setAttribute('src', 'External audio/ii.mp3')
+				// window.alert("READY!");
+			    document.addEventListener("deviceready", onDeviceReady, true);
 
-                audioElement.play();
+			    function onDeviceReady(){
+			       // window.alert("OK@!");
+			        var snd = new Media("/android_asset/www/External audio/ii.mp3");
+			        snd.play();
+			    }
 	
 	});
 	
 	
 	$("#alphabet-10").on("click",  function(e) {
 
-			 var audioElement = document.createElement('audio');
-			
-				audioElement.setAttribute('src', 'External audio/E.mp3')
+			 
+				// window.alert("READY!");
+			    document.addEventListener("deviceready", onDeviceReady, true);
 
-                audioElement.play();
+			    function onDeviceReady(){
+			       // window.alert("OK@!");
+			        var snd = new Media("/android_asset/www/External audio/E.mp3");
+			        snd.play();
+			    }
 	
 	});
 	
 	$("#alphabet-11").on("click",  function(e) {
 
-			 var audioElement = document.createElement('audio');
 			
-				audioElement.setAttribute('src', 'External audio/ee.mp3')
+				
+				// window.alert("READY!");
+			    document.addEventListener("deviceready", onDeviceReady, true);
 
-                audioElement.play();
+			    function onDeviceReady(){
+			       // window.alert("OK@!");
+			        var snd = new Media("/android_asset/www/External audio/ee.mp3");
+			        snd.play();
+			    }
 	
 	});
 	
 	$("#alphabet-12").on("click",  function(e) {
 
-			 var audioElement = document.createElement('audio');
 			
-				audioElement.setAttribute('src', 'External audio/koukou.mp3')
+				// window.alert("READY!");
+			    document.addEventListener("deviceready", onDeviceReady, true);
 
-                audioElement.play();
+			    function onDeviceReady(){
+			       // window.alert("OK@!");
+			        var snd = new Media("/android_asset/www/External audio/koukou.mp3");
+			        snd.play();
+			    }
 	
 	});
 	
 	$("#alphabet-13").on("click",  function(e) {
 
-			 var audioElement = document.createElement('audio');
 			
-				audioElement.setAttribute('src', 'External audio/sensei.mp3')
+				// window.alert("READY!");
+			    document.addEventListener("deviceready", onDeviceReady, true);
 
-                audioElement.play();
+			    function onDeviceReady(){
+			       // window.alert("OK@!");
+			        var snd = new Media("/android_asset/www/External audio/sensei.mp3");
+			        snd.play();
+			    }
+		
+				
 	
 	});
 	$("#alphabet-14").on("click",  function(e) {
 
-			 var audioElement = document.createElement('audio');
-			
-				audioElement.setAttribute('src', 'External audio/toukyou.mp3')
+		
+				// window.alert("READY!");
+			    document.addEventListener("deviceready", onDeviceReady, true);
 
-                audioElement.play();
+			    function onDeviceReady(){
+			       // window.alert("OK@!");
+			        var snd = new Media("/android_asset/www/External audio/toukyou.mp3");
+			        snd.play();
+			    }
+		
+				
 	
 	});
 	
 	$("#alphabet-15").on("click",  function(e) {
 
-			 var audioElement = document.createElement('audio');
-			
-				audioElement.setAttribute('src', 'External audio/eikyou.mp3')
+			 
+				// window.alert("READY!");
+			    document.addEventListener("deviceready", onDeviceReady, true);
 
-                audioElement.play();
+			    function onDeviceReady(){
+			       // window.alert("OK@!");
+			        var snd = new Media("/android_asset/www/External audio/eikyou.mp3");
+			        snd.play();
+			    }
+		
 	
 	});
 	
@@ -174,11 +220,16 @@ $("#alphabet-1").on("click",  function(e) {
 	
 	$("#alphabet-16").on("click",  function(e) {
 
-			 var audioElement = document.createElement('audio');
 			
-				audioElement.setAttribute('src', 'External audio/keiyoushi.mp3')
+				// window.alert("READY!");
+			    document.addEventListener("deviceready", onDeviceReady, true);
 
-                audioElement.play();
+			    function onDeviceReady(){
+			       // window.alert("OK@!");
+			        var snd = new Media("/android_asset/www/External audio/keiyoushi.mp3");
+			        snd.play();
+			    }
+			
 	
 	});
 	
