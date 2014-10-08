@@ -1,0 +1,65 @@
+ <html>
+<head>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+    <link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.2.css" />
+    <!--<link rel="stylesheet" type="text/css" href="jquery.mobile.external-png-1.4.2.css" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.icons-1.4.2.css" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.inline-png-1.4.2" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.inline-svg-1.4.2" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.structure-1.4.2" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.theme-1.4.2" />-->
+	   
+	    <script src="jquery-2.1.0.js"></script>
+	    <script src="jquery.mobile-1.4.2.js"></script>
+	    <!--<link rel="stylesheet" type="text/css" href="connectplus.css" />-->
+		<link rel="stylesheet" type="text/css" href="custom.css" />
+		<link rel="stylesheet" type="text/css" href="custom-wrapper.css" />
+		<link rel="stylesheet" type="text/css" href="custom-button.css" />
+		<script type="text/javascript" src="cordova-2.7.0.js"></script>
+		
+	
+    <title>Connect Japanese</title> 
+</head>
+<body>
+    <!--Home page-->
+    <div id="Home" data-role="page" data-theme="b" data-content-theme="b">
+        <div id="HomeHeader" data-role="header">
+            <h1>Connect Japanese </h1>
+        </div>		
+        <!--BreadCrumb -->
+        <div id="Breadcrumb">
+            <a href="index.html" style="text-decoration:none" id="breadcrumb">Table of Contents</a>
+        </div>	
+        <div data-role="ui-content">
+            <!-- Enterprise WorkSpace Tag -->
+            <div id="JapaneseContent" data-role="collapsible" data-collapsed="false">  
+                <ul data-role="listview" data-filter="true" data-inset="true" id="chapterListview" data-filter-placeholder="Table of Contents" data-filter-theme="d">
+				
+				</ul>          
+			</div>
+        </div>
+        <div id="HomeFooter" data-role="footer" data-position="fixed">
+            <h4><a href="#About" data-icon="info" class="ui-btn ui-icon-info ui-btn-icon-left">About</a></h4>
+        </div>  
+	
+	</div>
+    <!--About page-->
+    <div id="About" data-role="page" data-theme="b" data-content-theme="b">
+        <div id="AboutHeader" data-role="header">
+            <h1>About Connect Japanese</h1>
+            <a href="#Home" data-icon="home" class="ui-btn-left">Home</a>
+        </div>
+        <div id="AboutContent" data-role="ui-content" data-theme="b" data-content-theme="b">
+            <br>
+            <div class="ui-body ui-body-a ui-corner-all" >
+                <h3>Future is here!</h3>
+                <p align="justify"> So you want to speak Japanese. Well, I've got some good news and some bad news.
+				The good news is that Japanese is an incredibly interesting language with very few basic 
+				sounds and a straightforward grammar. </p>
+            </div>
+        </div>
+        <div id="AboutFooter" data-role="footer" data-position="fixed"></div>
+    </div>
+	 <script src="japanese.js"></script>
+</body>
+</html>

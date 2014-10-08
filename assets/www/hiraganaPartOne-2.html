@@ -1,0 +1,80 @@
+ <html>
+<head>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+    <link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.2.css" />
+    <!--<link rel="stylesheet" type="text/css" href="jquery.mobile.external-png-1.4.2.css" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.icons-1.4.2.css" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.inline-png-1.4.2" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.inline-svg-1.4.2" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.structure-1.4.2" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.theme-1.4.2" />-->
+    <script src="jquery-2.1.0.js"></script>
+    <script src="jquery.mobile-1.4.2.js"></script>
+    <!--<link rel="stylesheet" type="text/css" href="connectplus.css" />-->
+	<link rel="stylesheet" type="text/css" href="custom.css" />
+    <title>Connect Japanese</title>
+</head>
+<body>
+ 
+    <div id="About" data-role="page" data-theme="b" data-content-theme="b">
+        <div id="AboutHeader" data-role="header">
+           <h1> Connect Japanese</h1> 
+            <a href="#Home" data-icon="home" class="ui-btn-left">Home</a>
+        </div>
+        <div id="AboutContent" data-role="ui-content" data-theme="b" data-content-theme="b">
+            <br>
+            <div class="ui-body ui-body-a ui-corner-all" >
+                <h3>Hiragana, Part-1</h3>
+                <p align="justify">
+				Here they are. These aren't so scary, are they? Click on each character to see its proper stroke order.
+
+				</p>
+				
+				<p align="justify">
+				In English, different letters take up different amounts of space. For example, a W takes up more space 
+				than an I. But in Japanese, every character takes up the exact same space: a square. As you practice 
+				these characters, try to make them fill up their imaginary squares. 
+
+				</p>
+
+				<p align="justify">
+				One other note before we get to the characters. Stroke order, or the way in which you draw the characters, 
+				is very important. In fact, some characters won't look right if written in the wrong stroke order, for 
+				reasons we'll see shortly. So I've included animations of each character. Just click a character to see 
+				it drawn in the correct stroke order.
+
+				</p>
+				
+				<p align="justify">
+				Notice that the first stroke of i has a little "jump" at the end of it. As we progress, you'll see many 
+				characters with these. These jumps are called hane in Japanese, and the reason for them is that Japanese 
+				was originally written with a brush and ink. Think of the hane as a little trail of ink, and notice that 
+				it usually points to the next stroke. Of course, these days, with ballpoint pens and word processors, 
+				trailing ink is not a problem, but the hane have been left over from ancient times. 
+				They are important to make the characters look good, so be sure to get them in when you write 
+				the characters.
+				</p>
+
+				<div class="center" data-role="controlgroup" data-type="horizontal">
+				
+				<a href="dialog.html" data-role="button" data-inline="true" data-rel="dialog" data-theme="b" data-transition="pop"> A</a>
+				<a href="dialog-1.html" data-role="button" data-inline="true" data-rel="dialog" data-theme="b" data-transition="pop"> I</a>
+				<a href="dialog-2.html" data-role="button" data-inline="true" data-rel="dialog" data-theme="b" data-transition="pop"> U</a>
+				<a href="dialog-3.html" data-role="button" data-inline="true" data-rel="dialog" data-theme="b" data-transition="pop"> E</a>
+				<a href="dialog-4.html" data-role="button" data-inline="true" data-rel="dialog" data-theme="b" data-transition="pop"> O</a>
+				
+				
+				</div>
+
+            </div>
+        </div>
+		
+        <div id="AboutFooter" data-role="footer" data-position="fixed"  data-tap-toggle="false" class="ui-btn ">
+		<input id="prev-2" type="button" value="Previous" data-icon="arrow-l" data-type="horizontal"/>
+		<input id="next-2" type="button"  value="Next" data-icon="arrow-r" data-type="horizontal" /> 
+		<script src="hiraganaPartOne-2.js"></script>
+	</div>
+    </div>
+	 
+</body>
+</html>

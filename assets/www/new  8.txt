@@ -1,0 +1,214 @@
+.custom-text
+    {
+	
+    position:absolute;
+	top:160.5px;
+    bottom:700px;
+    width:5%;
+}
+
+
+	.custom-text-1
+		{
+		
+		position:absolute;
+		top:160.5px;
+		bottom:700px;
+		width:18%;
+	}
+
+.custom-text-2
+    {
+	
+    position:absolute;
+	top:235.5px;
+    bottom:900px;
+    width:5%;
+}
+
+.custom-text-3
+    {
+	
+    position:absolute;
+	top:235.5px;
+    bottom:900px;
+    width:17%;
+}
+
+.custom-text-4
+    {
+	
+    position:absolute;
+
+	top:315.5px;
+    bottom:700px;
+    width:5%;
+}
+
+.custom-text-5
+    {
+	
+    position:absolute;
+	top:317.5px;
+    bottom:900px;
+    width:17%;
+}
+
+.custom-text-6
+    {
+	
+    position:absolute;
+	top:380.5px;
+    bottom:900px;
+    width:5%;
+}
+
+.custom-text-7
+    {
+	
+    position:absolute;
+	top:380.5px;
+    bottom:900px;
+    width:17%;
+}
+
+.custom-text-8
+    {
+	
+    position:absolute;
+	top:460.5px;
+    bottom:900px;
+    width:5%;
+}
+.custom-text-9
+    {
+	
+    position:absolute;
+	top:460.5px;
+    bottom:900px;
+    width:17%;
+}
+.custom-text-10
+    {
+	
+    position:absolute;
+	top:530.5px;
+    bottom:900px;
+    width:5%;
+}
+.custom-text-11
+    {
+	
+    position:absolute;
+	top:530.5px;
+    bottom:900px;
+    width:17%;
+}
+//-------------------------------------------------------------------------
+
+.custom-text
+    {
+	
+    position:absolute;
+	top:160.5px;
+    bottom:700px;
+    width:5%;
+}
+
+
+	.custom-text-1
+		{
+		
+		position:absolute;
+		top:240.5px;
+		bottom:700px;
+		width:5%;
+	}
+
+.custom-text-2
+    {
+	
+    position:absolute;
+	top:310.5px;
+    bottom:900px;
+    width:5%;
+}
+
+.custom-text-3
+    {
+	
+    position:absolute;
+	top:160.5px;
+    bottom:900px;
+    width:5%;
+}
+
+.custom-text-4
+    {
+	
+    position:absolute;
+
+	top:160.5px;
+    bottom:700px;
+    width:15%;
+}
+
+.custom-text-5
+    {
+	
+    position:absolute;
+	top:160.5px;
+    bottom:900px;
+    width:5%;
+}
+
+.custom-text-6
+    {
+	
+    position:absolute;
+	top:380.5px;
+    bottom:900px;
+    width:5%;
+}
+
+.custom-text-7
+    {
+	
+    position:absolute;
+	top:380.5px;
+    bottom:900px;
+    width:17%;
+}
+
+.custom-text-8
+    {
+	
+    position:absolute;
+	top:460.5px;
+    bottom:900px;
+    width:5%;
+}
+.custom-text-9
+    {
+	
+    position:absolute;
+	top:460.5px;
+    bottom:900px;
+    width:17%;
+}
+.custom-text-10
+    {
+	
+    position:absolute;
+	top:530.5px;
+    bottom:900px;
+    width:5%;
+}
+.custom-text-11
+    {
+	
+    position:absolute;
+	top:530.5px;
+    bottom:900px;
+    width:17%;
+}

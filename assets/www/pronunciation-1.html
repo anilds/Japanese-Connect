@@ -1,0 +1,117 @@
+ <html>
+<head>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+    <link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.2.css" />
+    <!--<link rel="stylesheet" type="text/css" href="jquery.mobile.external-png-1.4.2.css" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.icons-1.4.2.css" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.inline-png-1.4.2" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.inline-svg-1.4.2" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.structure-1.4.2" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.theme-1.4.2.css" />-->
+		<link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.2.min.css" />
+
+    <script src="jquery-2.1.0.js"></script>
+    <script src="jquery.mobile-1.4.2.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="custom.css" />
+	
+	
+	<script type="text/javascript" src="cordova-2.7.0.js"></script>
+
+    <title>Connect Japanese</title>
+	
+</head>
+<body>
+ 
+    <div id="About" data-role="page" data-theme="b" data-content-theme="b">
+        <div id="AboutHeader" data-role="header">
+           <h1> Connect Japanese</h1> 
+            <a href="#Home" data-icon="home" class="ui-btn-left">Home</a>
+        </div>
+        <div id="AboutContent" data-role="ui-content" data-theme="b" data-content-theme="b">
+            <br>
+            <div class="ui-body ui-body-a ui-corner-all" >
+                <h3>Pronunciation</h3>
+                <p align="justify"> Starting from lesson two, we'll start learning the syllabaries. 
+				Until we've mastered them, we'll use both Roman letters and the syllabaries to represent the 
+				Japanese words we encounter. However, by lesson 18, we'll begin using the syllabaries exclusively.
+				Although this may seem overwhelming right now, they are really easy to learn and understand. 
+				(Japanese also uses a third character set, called Kanji, which was borrowed from Chinese.
+				We'll discuss Kanji a bit more in the next lesson.)
+				</p>
+				
+				<p align="justify">But now, let's look at pronunciation in Japanese. We'll start with the vowels. 
+				The list is short and sweet. When written in Roman letters, the vowels are pronounced as follows. 
+				Click each letter to hear it pronounced. 
+				</p>
+				
+				<p align="justify">There you have it. These vowel sounds are always pronounced as I have indicated.
+				The "never" notes are just friendly reminders because as English-speakers, we often tend to allow letters 
+				that follow a vowel to influence the pronunciation of that vowel. For example, take the car company Honda.
+				Americans always mispronounce the name because they change the o sound when they see the n after it. In Japanese,
+				it is pronounced "hone-dah," because in Japanese, o is always pronounced "oh," regardless of what follows.
+				</p>
+			
+			<div class="center" >
+		
+				<table data-role="table" id="table-custom-2"  data-type="vertical"  class="ui-body-d ui-shadow  ui-content table-stripe ui-responsive"    data-column-popup-theme="a">
+					<thead>
+					  <tr class="ui-bar-d">
+					
+						 <tr>
+						<th data-priority="2" data-colstart="1" class="ui-table-priority-2 ui-table-cell-visible">Written</th>
+						<th data-colstart="2">Pronounced</th>
+						
+				
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+					  
+						<td><input id="alphabet-1" type="button"   data-theme="b" data-content-theme="b" value="A" /></td>
+						<td>As in <font color="red"> <i> "father." </i> </font> Never as in "apple" or "cape"</td>
+						
+					  </tr>
+					  <tr>
+					
+						<td><input id="alphabet-2" type="button" data-theme="b" data-content-theme="b" value="I" /></td>
+						<td>As in <font color="red"> <i> "Machine." </i> </font>   Never as in "pit"</td>
+						
+					  </tr>
+					  <tr>
+					
+						<td><input id="alphabet-3" type="button" data-theme="b" data-content-theme="b" value="U" /></td>
+						<td>As in <font color="red"> <i> "jupiter." </i> </font> Never as in "jump"</td>
+						
+					  </tr>
+					  <tr>
+						
+						<td><input id="alphabet-4" type="button" data-theme="b" data-content-theme="b" value="E" /></td>
+						<td>As in <font color="red"><i>"pen."</i> </font>    Nerver as in "peek"</td>
+						
+					  </tr>
+					  <tr>
+						
+						<td><input id="alphabet-5" type="button"   data-theme="b" data-content-theme="b" value="O" /></td>
+						<td>As in <font color="red"> "hope." </i> </font>   Nerver as in "on"</td>
+						
+					  </tr>
+					  
+					</tbody>
+				</table>
+						
+				<script src="audio-pronunciation.js"></script>
+			</div>
+			
+		</div>	
+	</div>
+					
+        <div id="AboutFooter" data-role="footer" data-position="fixed" class="ui-btn " data-tap-toggle="false" data-theme="b">
+		<input id="prev-1" type="button" value="Previous" data-icon="arrow-l" data-type="horizontal"/>
+		<input id="next-1" type="button"  value="Next" data-icon="arrow-r" data-type="horizontal" /> 
+		<script src="pronunciation-1.js"></script>
+	</div>
+    </div>
+	 
+</body>
+</html>

@@ -1,0 +1,121 @@
+ <html>
+<head>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+    <link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.2.css" />
+    <!--<link rel="stylesheet" type="text/css" href="jquery.mobile.external-png-1.4.2.css" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.icons-1.4.2.css" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.inline-png-1.4.2" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.inline-svg-1.4.2" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.structure-1.4.2" />
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.theme-1.4.2" />-->
+    <script src="jquery-2.1.0.js"></script>
+    <script src="jquery.mobile-1.4.2.js"></script>
+    
+	
+	<link rel="stylesheet" type="text/css" href="custom.css" />
+	
+	<link rel="stylesheet" type="text/css" href="custom-wrapper.css" />
+	
+	<link rel="stylesheet" type="text/css" href="custom-button.css" />
+	
+	<link rel="stylesheet" type="text/css" href="custom-test.css" />
+	
+    <title>Connect Japanese</title>
+	
+	
+</head>
+<body>
+ 
+    <div id="About" data-role="page" data-theme="b" data-content-theme="b">
+        <div id="AboutHeader" data-role="header">
+           <h1> Connect Japanese</h1> 
+            <a href="#Home" data-icon="home" class="ui-btn-left">Home</a>
+        </div>
+        <div id="AboutContent" data-role="ui-content" data-theme="b" data-content-theme="b">
+            <br>
+            <div class="ui-body ui-body-a ui-corner-all" >
+                <h3>Pronunciation</h3>
+                <p align="justify"> 
+				
+				Let's listen to a few words pronounced the correct and incorrect way. The correct way is a recording of 
+				a native Japanese speaker. The incorrect way is a recording of me, pronouncing the word the way foreigners often do.
+
+
+				</p>
+				
+				<div class="center" >
+		
+				<table data-role="table" id="table-custom-2"  class="ui-body-d ui-shadow custom-btn-1 ui-content  ui-responsive"  data-column-popup-theme="a">
+					<thead>
+					  <tr class="ui-bar-d">
+					
+						<th>Native (no stress modulation)</th>
+						<th data-priority="2" >Foreigner</th>
+						<th data-priority="2" >Meaning</th>
+						
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+					  
+						<td><input id="alphabet-21" type="button" data-theme="b" data-content-theme="b" value="watashi" /></td>
+						<td><input id="alphabet-22" type="button" data-theme="b" data-content-theme="b" value="wuh-TAH-shi" /></td>
+						<td style="text-align:center;" class="custom-text-34">Me/I</td>
+					  </tr>
+					  <tr>
+					
+						<td><input id="alphabet-23" type="button" data-theme="b" data-content-theme="b" value="anata" /></td>
+						<td><input id="alphabet-24" type="button" data-theme="b" data-content-theme="b" value="uh-NAH-tuh" /></td>
+						<td "text-align:center;" class="custom-text-35">you</td>
+						
+					  </tr>
+					  <tr>
+					
+						<td><input id="alphabet-25" type="button" data-theme="b" data-content-theme="b" value="kuruma" /></td>
+						<td><input id="alphabet-26" type="button" data-theme="b" data-content-theme="b" value="kuh-RU-mah" /></td>
+						<td "text-align:center;" class="custom-text-36">Car</td>
+						
+					  </tr>
+					  
+					
+					
+					</tbody>
+				</table>
+				
+				<script src="audio-pronunciation.js"></script>
+				</div>
+				
+				<p align="justify">
+				One trick to making sure that you don't stress a particular syllable is to make sure you don't change the 
+				pronunciation of any of the syllables. For example, when foreigners incorrectly stress the middle syllable 
+				of watashi, the first syllable is usually warped as a result, and the final word sounds like "wuh-TA-shi." 
+				But "wuh" is not a Japanese sound at all! So if you pay close attention and make sure you give each syllable 
+				the correct vowel sound, it'll go a long way to making sure you aren't unnecessarily stressing any syllables.
+
+				</p>
+				
+				<p align="justify">
+				For example, if you see the word kaeru, you simply say "ka-e-ru." The e does not exercise magical powers 
+				over the a as it would in English. This is most definitely not pronounced "kay-ru." Just read the vowels the
+				way they're always read. 
+	
+				</p>
+				
+				
+			
+						
+				
+			
+							
+		</div>	
+	</div>
+			
+        <div id="AboutFooter" data-role="footer" data-position="fixed" data-tap-toggle="false" class="ui-btn ">
+		<input id="prev-6" type="button" value="Previous" data-icon="arrow-l" data-type="horizontal"/>
+		<input id="next-6" type="button"  value="Next" data-icon="arrow-r" data-type="horizontal" /> 
+		<script src="pronunciation-6.js"></script>
+	</div>
+    </div>
+	 
+</body>
+</html>
