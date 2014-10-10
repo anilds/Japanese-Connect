@@ -39,7 +39,7 @@ $.ajax({
 						window.location.href,
 						{
 						allowSamePageTransition : true,
-						transition              : "slideup",
+						transition              : "flip",
 						showLoadMsg             : true,
 						reloadPage              : true
 						});
@@ -47,15 +47,32 @@ $.ajax({
 						}
 						else if(selected_index==1){
 						
-						$.mobile.changePage("pronunciation.html");
+						$.mobile.changePage("pronunciation.html",window.location.href,
+								{
+							allowSamePageTransition : true,
+							transition              : "flip",
+							showLoadMsg             : true,
+							reloadPage              : true
+							});
 						}else if(selected_index==2){
 						
-						$.mobile.changePage("TheWritingSystem.html");
+						$.mobile.changePage("TheWritingSystem.html",window.location.href,
+								{
+							allowSamePageTransition : true,
+							transition              : "flip",
+							showLoadMsg             : true,
+							reloadPage              : true
+							});
 						}
-						
 						else if(selected_index==3){
 						
-						$.mobile.changePage("hiraganaPartOne.html");
+						$.mobile.changePage("hiraganaPartOne.html",window.location.href,
+								{
+							allowSamePageTransition : true,
+							transition              : "flip",
+							showLoadMsg             : true,
+							reloadPage              : true
+							});
 						}
 						
 					 

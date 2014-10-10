@@ -1,4 +1,7 @@
  <html>
+ <!-- Author: Anil D S
+ Decription:I worked on changing header and footer are fixed  on position.Removal of filter this project.
+  -->
 <head>
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
     <link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.2.css" />
@@ -12,31 +15,37 @@
 	    <script src="jquery-2.1.0.js"></script>
 	    <script src="jquery.mobile-1.4.2.js"></script>
 	    <!--<link rel="stylesheet" type="text/css" href="connectplus.css" />-->
-		<link rel="stylesheet" type="text/css" href="custom.css" />
+	<link rel="stylesheet" type="text/css" href="custom.css" />
 		<link rel="stylesheet" type="text/css" href="custom-wrapper.css" />
 		<link rel="stylesheet" type="text/css" href="custom-button.css" />
 		<script type="text/javascript" src="cordova-2.7.0.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="ui-title.css" />
 		
 	
     <title>Connect Japanese</title> 
 </head>
 <body>
     <!--Home page-->
-    <div id="Home" data-role="page" data-theme="b" data-content-theme="b">
-        <div id="HomeHeader" data-role="header">
-            <h1>Connect Japanese </h1>
+    <div id="Home" data-role="page" data-tap-toggle="false" data-theme="b" data-position="fixed" data-content-theme="b">
+        <div id="HomeHeader" data-role="header" data-tap-toggle="false" data-theme="b" data-position="fixed" data-content-theme="b">
+           <h1 style="text-align:left; margin-left:10px;">Connect Japanese</h1>
         </div>		
         <!--BreadCrumb -->
-        <div id="Breadcrumb">
-            <a href="index.html" style="text-decoration:none" id="breadcrumb">Table of Contents</a>
-        </div>	
-        <div data-role="ui-content">
+        	
+        <div data-role="ui-content" >
             <!-- Enterprise WorkSpace Tag -->
-            <div id="JapaneseContent" data-role="collapsible" data-collapsed="false">  
-                <ul data-role="listview" data-filter="true" data-inset="true" id="chapterListview" data-filter-placeholder="Table of Contents" data-filter-theme="d">
+           
+            <div id="JapaneseContent" data-role="collapsible"   data-collapsed="false"> 
+            
+                <ul data-role="listview"  id="chapterListview"   data-filter-placeholder="Table of Contents" d>
 				
-				</ul>          
-			</div>
+				</ul> 
+			
+		
+				</div>
+				         
+			
         </div>
         <div id="HomeFooter" data-role="footer" data-position="fixed">
             <h4><a href="#About" data-icon="info" class="ui-btn ui-icon-info ui-btn-icon-left">About</a></h4>
@@ -58,7 +67,7 @@
 				sounds and a straightforward grammar. </p>
             </div>
         </div>
-        <div id="AboutFooter" data-role="footer" data-position="fixed"></div>
+        <div id="AboutFooter" data-role="footer" data-theme="b" data-tap-toggle="false"  data-content-theme="b" data-position="fixed"></div>
     </div>
 	 <script src="japanese.js"></script>
 </body>

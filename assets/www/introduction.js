@@ -5,7 +5,7 @@ $("#prev").on("click",  function(e) {
 				window.location.href,
 				{
 				allowSamePageTransition : true,
-				transition              : "slideup",
+				transition              : "slide",
 				showLoadMsg             : true,
 				reloadPage              : true
 				});
@@ -31,7 +31,7 @@ $("#next").on("click",  function(e) {
 				window.location.href,
 				{
 				allowSamePageTransition : true,
-				transition              : "slideup",
+				transition              : "slide",
 				showLoadMsg             : true,
 				reloadPage              : true
 				});
