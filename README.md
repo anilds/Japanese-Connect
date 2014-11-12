@@ -15,5 +15,5 @@ Tools Requirements
 4. Jquery Plugins
 5. Cordova 2.7.0 
 
-Thank you
+                        Thank you
 
