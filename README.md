@@ -1,9 +1,9 @@
 Welcome to JapaneseConnect
 ================
-This project will be helpfull for beginners in japanese lanaguage. Still it is not completed.I just completed 3 chapter.
+This project will be helpfull for beginners in japanese lanaguage. Still it is not completed.It require time to complete the project.
 
     Note:
-    - It is fully developed in Jquery mobile API’s widely used in current technology.
+    - It is fully developed in Jquery mobile API’s.
     -Front end is designed in Html and css.
     - JavaScript as a Controller.
 
